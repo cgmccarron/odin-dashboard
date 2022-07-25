@@ -157,7 +157,6 @@ header {
 
 #greeting {
   width: fit-content;
-  border: 1px solid black;
   padding: 0;
   margin-left: 20px;
 }
@@ -222,6 +221,7 @@ header {
 }
 
 .card {
+  display: flex;
   height: 10rem;
   border-radius: 10px;
   background-color: white;
@@ -232,4 +232,15 @@ header {
   background-color: white;
   border-radius: 10px;
   height: 100%;
+}
+
+.colorDiv {
+  border-top-left-radius: inherit;
+  margin: 0;
+  background-color: var(--bg-tertiary);
+  width: 5%;
+}
+
+.textDiv {
+  color: var(--text-primary);
 }
